@@ -1,0 +1,12 @@
+spring:
+  main:
+    allow-bean-definition-overriding: true
+
+  data:
+    mongodb:
+      uri: mongodb://localhost:27017/mydatabase
+      
+
+logging:
+  level:
+    com.demofinalRGI.springbootlogging: DEBUG

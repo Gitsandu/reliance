@@ -1,0 +1,11 @@
+spring:
+  main:
+    allow-bean-definition-overriding: true
+
+  data:
+    jdbc:
+      uri: jdbc:sqlserver://CNS-86\SQLDEV2019:1433;databaseName=scheduler
+
+logging:
+  level:
+    com.demofinalRGI.springbootlogging: DEBUG
